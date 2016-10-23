@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+.records {
+    display: flex; /* flexbox for wrapping because */
+    flex-wrap: wrap;
+		margin-bottom: 1em;
+}
+
+img {
+		margin: 5px;
+    width: 150px;
+    height: 150px;
+		border-radius:50%;
+    cursor: pointer;
+}
+
+.fa-spotify {
+	color: #61d569;
+}
+
+form input {
+	color: #555;
+	display: inline-block;
+	height: 34px;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.error-message {
+    color: #D00;
+    font-size: 150%;
+}
