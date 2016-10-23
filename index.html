@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!--font awesome-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<!--animate.css for fun -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -34,10 +32,9 @@
       <!-- data will be added here -->
     </div>
 
-    <form role="form" method="GET" action="https://api.spotify.com/v1/search">
+    <form role="form">
       <label for="searchQuery"> What do you want to hear?</label>
       <input type="text" name="q" id="searchQuery">
-      <input type="hidden" name="type" value="track">
 
       <button type="submit" class="btn">
         <i class="fa fa-music" aria-hidden="true"></i> Search!
@@ -45,9 +42,6 @@
     </form>
 
   </main>
-
-	<!--.fetch() polyfill for browsers that don't yet support it yet (e.g., Safari)-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
 
   <!-- load script files -->
   <script src="js/app.js"></script>
